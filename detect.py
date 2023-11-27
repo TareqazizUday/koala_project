@@ -6,7 +6,7 @@ from ultralytics import YOLO
 
 from django.conf import settings
 ROOT = settings.MEDIA_ROOT 
-model = YOLO('/home/tareq-aziz-uday/Music/project_r.zip-20231127T102716Z-001/koala_project/best.pt')   ## change this with your model
+model = YOLO('/home/tareq-aziz-uday/Music/koala_project/best.pt')   ## change this with your model
 Animal_list = ["koala"]## change this with your class name
 
 def detect_v8(image):
