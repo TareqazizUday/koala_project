@@ -1,0 +1,12 @@
+train: /home/tareq-aziz-uday/Music/koala_Detection.v1i.yolov8/train
+val: /home/tareq-aziz-uday/Music/koala_Detection.v1i.yolov8/valid
+
+nc: 1
+names: ['Koala']
+
+roboflow:
+  workspace: cold-drinks-o5iud
+  project: koala_detection-lhtx9
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cold-drinks-o5iud/koala_detection-lhtx9/dataset/1
